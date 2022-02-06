@@ -12,7 +12,7 @@ export function HomePage() {
     return (
         <div>
              <MovieSearch />
-             <MoviesGrid search={debouncedSearch}/>
+             <MoviesGrid key={debouncedSearch} search={debouncedSearch}/>
         </div>
     )
 }

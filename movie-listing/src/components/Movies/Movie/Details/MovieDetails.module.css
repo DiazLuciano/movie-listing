@@ -9,11 +9,17 @@
 }
 
 .col{
-    max-width: 400px;
+    max-width: 450px;
     height: auto;
     margin: 20px;
 }
 
 .overview{
     font-size: 1.5rem;
+}
+
+@media (max-width: 560px){
+    .col{
+        max-width: 350px;
+    }
 }
