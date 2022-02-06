@@ -3,7 +3,7 @@ const API = "https://api.themoviedb.org/3";
 export async function get(path) {
     const result = await fetch(API + path, {
         headers: {
-            Authorization: "Bearer eyJhbGciOiJIUzI1NiJ9.eyJhdWQiOiIwN2Q4YTI0OTY2MDA2ZTZjMmY3N2UxNTI0ZjE2ZDUyNiIsInN1YiI6IjYxYzBmMmEyNGRhM2Q0MDA5NmM0MGNjMSIsInNjb3BlcyI6WyJhcGlfcmVhZCJdLCJ2ZXJzaW9uIjoxfQ.Qzf3sqx1sYDsI4MJLze1lRbRit7z7G5FwzdA-47qJew",
+            Authorization: "Bearer eyJhbGciOiJIUzI1NiJ9.eyJhdWQiOiI1NzUzN2ZmMTlmMzgxZGQ3YjY3ZWVlMWVhOGI4MTY0YSIsInN1YiI6IjVlM2ExNmU1MGMyNzEwMDAxODc1NTI4MCIsInNjb3BlcyI6WyJhcGlfcmVhZCJdLCJ2ZXJzaW9uIjoxfQ.nOpZ_nBtA93tbzr6-rxD0760tssAAaSppyjRv9anArs",
             "Content-Type": "application/json;charset=utf-8"
         }
     });
