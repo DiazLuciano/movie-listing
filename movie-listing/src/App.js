@@ -6,6 +6,7 @@ import {
   Link
 } from "react-router-dom";
 import { HomePage } from './features/Home/pages/HomePage';
+import { MovieDetails } from './components/Movies/Movie/Details/MovieDetails';
 
 function App() {
   return (
@@ -14,9 +15,10 @@ function App() {
         <Link to="/">
           <h1 className='title'>Movies</h1>
         </Link>
-        <hr />
+        
         <Routes>
-          <Route exact path="/" element={<HomePage/>}></Route>
+          <Route path="/" element={<HomePage/>}></Route>
+          <Route exact path="/movies/:movieId" element={<MovieDetails></MovieDetails>}></Route>
         </Routes>
       </div>
     </Router>
