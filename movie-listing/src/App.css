@@ -21,7 +21,6 @@
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
-  color: white;
 }
 
 .App-link {
@@ -36,6 +35,7 @@
 
 a{
   text-decoration: none;
+  color: azure;
 }
 
 @keyframes App-logo-spin {
